@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link href="style.css" rel="stylesheet" />
     <title>Hatke Chai</title>
 </head>
@@ -15,7 +16,7 @@
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg" style="background-color: rgb(211, 179, 165)">
-        <div class="container-fluid">
+        <div class="container-fluid" data-aos="fade-right" data-aos-delay="100">
             <a class="navbar-brand" href="#" style="text-decoration: none;">HATKE CHAIWALA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
@@ -44,12 +45,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6" id="slogan">
-                    <h1 id="chai">Chai <span style="color: rgb(110, 29, 29);">Bina</span> <br><span style="color: rgb(110, 29, 29);">chain</span> kahan re !!</h1>
-                    <p id="shakha">आमची शाखा कुठे ही नाही !!</p>
-                    <a href="#footer" style="text-decoration: none;"><button class="btn" id="btn">और जानकारी</button></a>
+                    <h1 id="chai" data-aos="fade-right" data-aos-delay="200">Chai <span style="color: rgb(110, 29, 29);">Bina</span> <br><span style="color: rgb(110, 29, 29);">chain</span> kahan re !!</h1>
+                    <p id="shakha" data-aos="fade-right" data-aos-delay="200">आमची शाखा कुठे ही नाही !!</p>
+                    <a href="#footer" style="text-decoration: none;"><button data-aos="fade-right" data-aos-delay="200" class="btn" id="btn">और जानकारी</button></a>
                 </div>
                 <div class="col-lg-6" id="logo">
-                    <img src="images/tea.png" />
+                    <img data-aos="fade-left" data-aos-delay="200" src="images/tea.png" />
                 </div>
             </div>
         </div>
@@ -59,11 +60,11 @@
     <div id="features">
         <div class="container">
             <div class="features">
-                <h1 id="special">हमारी ESpecial चाय !!</h1>
-                <p id="special-slogan">एकदा पिउन तर पाहा फकत <span style="color: rgb(72, 156, 177);">10/- रूपे</span> चाहा !!</p>
-                <p style="text-align: center; font-weight:lighter;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                <h1 data-aos="fade-up" data-aos-delay="100" id="special">हमारी ESpecial चाय !!</h1>
+                <p data-aos="fade-up" data-aos-delay="100" id="special-slogan">एकदा पिउन तर पाहा फकत <span style="color: rgb(72, 156, 177);">10/- रूपे</span> चाहा !!</p>
+                <p data-aos="fade-up" data-aos-delay="100" style="text-align: center; font-weight:lighter;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                     aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <ul id="list">
+                <ul id="list" data-aos="fade-up" data-aos-delay="100">
                     <li>Hatke special</li>
                     <li>Immunity booster</li>
                     <li>Kullad Chai</li>
@@ -78,13 +79,13 @@
     <!-- ABOUT US -->
     <div class="about-us" id="about-us">
         <div class="container">
-            <h1>कौन है Hatke Chaiwala !?</h1>
-            <p style="font-weight: lighter; font-size: 20px;">Started in Pune. <span style="color: rgb(72, 156, 177);">Hatke Chaiwala</span> the name by which our lovely customers remember us is on the journey of revolutionizing the Beverages Industry. We have delivered the unexpected form of a Chai-focused
+            <h1 data-aos="fade-up" data-aos-delay="100">कौन है Hatke Chaiwala !?</h1>
+            <p data-aos="fade-up" data-aos-delay="100" style="font-weight: lighter; font-size: 20px;">Started in Pune. <span style="color: rgb(72, 156, 177);">Hatke Chaiwala</span> the name by which our lovely customers remember us is on the journey of revolutionizing the Beverages Industry. We have delivered the unexpected form of a Chai-focused
                 brand taking over the industry. <span style="color: rgb(72, 156, 177);">Abhishek, Amit & Jayesh</span> with a unique idea to offer an affordable ambiance to everyone, started <span style="color: rgb(72, 156, 177);">Hatke Chaiwala</span>                that has evolved into a Multi-National Brand today. Our Kulhad Chai not only provides an aromatic taste to its customers but also has been a symbol of happiness & a ray of hope for the needy. The Kulhad besides serving flavorful Chai has
                 also been providing employment opportunities to the people of the country thus promoting an eco-friendly environment. This has enabled us to deliver a strong message across the borders. We are committed to serving a delightful experience
                 to millions of people.</p>
-            <h3 style="font-weight: lighter; font-size: 30px;">Introducing our <span style="color: rgb(72, 156, 177);">Co-Founders</span></h3><br>
-            <div class="row">
+            <h3 data-aos="fade-up" data-aos-delay="100" style="font-weight: lighter; font-size: 30px;">Introducing our <span style="color: rgb(72, 156, 177);">Co-Founders</span></h3><br>
+            <div data-aos="fade-up" data-aos-delay="100" class="row">
                 <div class="col-lg-4 we">
                     <img src="images/abhishek.png" />
                     <div class="info">
@@ -119,7 +120,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -158,7 +158,10 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
