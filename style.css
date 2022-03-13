@@ -224,9 +224,9 @@ footer {
     RESPONSIVE
 ******************/
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     #logo {
-        padding-left: 100px;
+        padding-left: 130px;
     }
     #home {
         padding-bottom: 75px;
