@@ -231,4 +231,7 @@ footer {
     #home {
         padding-bottom: 75px;
     }
+    body {
+        overflow-x: hidden !important;
+    }
 }
