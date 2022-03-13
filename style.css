@@ -1,0 +1,229 @@
+/******************  
+    NAV
+******************/
+
+.navbar-brand,
+.nav-link,
+.dropdown-item {
+    color: rgb(110, 29, 29);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    /* color: rgb(104, 0, 0); */
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 12px rgb(78, 0, 0);
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0 5px 0 0;
+}
+
+.navbar-brand:hover {
+    /* color: rgb(110, 29, 29); */
+    color: white;
+    text-shadow: 3px 3px 12px rgb(78, 0, 0);
+}
+
+.container-fluid {
+    padding: 13px;
+}
+
+.navbar-toggler {
+    color: rgb(110, 29, 29);
+}
+
+
+/******************  
+    HOME
+******************/
+
+#home {
+    background-color: #f5deb3;
+    padding: 25px;
+    text-align: left;
+    padding-bottom: 150px;
+}
+
+#slogan {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#shakha {
+    font-size: 20px;
+    color: rgb(110, 29, 29);
+}
+
+#chai {
+    font-family: cursive;
+    color: rgb(72, 156, 177);
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+#logo {
+    padding-left: 150px;
+}
+
+#btn {
+    padding: 5px 25px 5px 25px;
+    background-color: transparent;
+    border: 2px solid brown;
+    font-size: 17px;
+    border-radius: 25px;
+    color: brown;
+    font-weight: bold;
+}
+
+#btn:hover {
+    background-color: rgba(95, 69, 48, 0.966);
+    color: white;
+    border: 2px solid white;
+}
+
+
+/******************  
+    FEATURES
+******************/
+
+#features {
+    /* background-color: rgb(72, 156, 177); */
+    background-color: rgb(145, 28, 28);
+    color: white;
+    padding: 25px;
+}
+
+#special {
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+#list {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+#special-slogan {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+/******************  
+    ABOUT US
+******************/
+
+.about-us {
+    background-color: #f5deb3;
+    padding: 20px;
+    text-align: center;
+    color: rgb(110, 29, 29);
+}
+
+.we {
+    padding: 10px;
+    text-align: center;
+}
+
+.we img {
+    width: 230px;
+    height: 230px;
+}
+
+.info {
+    text-align: left;
+}
+
+#name {
+    color: rgb(110, 29, 29);
+}
+
+#name:hover {
+    color: rgb(72, 156, 177) !important;
+}
+
+
+/******************  
+    FOOTER
+******************/
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: -0.6em 0 0 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    margin-top: 0 !important;
+    text-align: center;
+    color: white;
+}
+
+.social-icon li a:hover {
+    color: rgb(72, 156, 177);
+}
+
+#mail:hover {
+    color: rgb(72, 156, 177);
+    cursor: pointer;
+}
+
+#phone:hover {
+    color: rgb(72, 156, 177);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(110, 29, 29);
+    padding: 20px;
+}
+
+footer {
+    color: white;
+    font-weight: lighter;
+}
+
+#insta {
+    margin-left: unset !important;
+}
+
+#contact {
+    font-size: 37px;
+    font-weight: lighter;
+}
+
+
+/******************  
+    RESPONSIVE
+******************/
+
+@media (max-width: 700px) {
+    #logo {
+        padding-left: 130px;
+    }
+    #home {
+        padding-bottom: 75px;
+    }
+}
